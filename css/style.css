@@ -2,16 +2,22 @@
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  color: blue;
-}
-.flex2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.text {
+  color: rgb(5, 5, 137);
   font-weight: bold;
 }
 .logo {
-  text-align: ;
+  text-align: left;
+  padding: 30px 30px;
+}
+.flex2 {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  padding: 30px 30px;
+}
+
+body {
+  background-image: url(/img/firstview.jpeg);
+  background-position: 25% 0 25% 50%;
 }
