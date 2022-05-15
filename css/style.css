@@ -18,6 +18,9 @@
 }
 
 body {
-  background-image: url(/img/firstview.jpeg);
-  background-position: 25% 0 25% 50%;
+  background-image: url(../img/firstview.jpeg);
+  background-position:25% right 25% 50%;
+  background-size: ; 
+  background-repeat: no-repeat;
+
 }
