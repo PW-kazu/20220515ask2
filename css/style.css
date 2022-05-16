@@ -9,33 +9,43 @@
   text-align: left;
   padding: 30px 30px;
 }
-.flex2 {
-  display: flex;
-  flex-direction: row;
-}
+
 .box {
   padding: 30px 30px;
 }
 
+.flex2{
+  display: contents;
+  flex-direction: row;
+}
+
 .margin {
   width: 35%;
-  height: 1000px;
-  margin: 0 0 0 auto;
-}
-
-.relative2 {
   
-  right: 0%;
-  top: 25%;
+  margin: 70px 0 0 auto;
 }
 
-.abs1 {
-  top: 70%;
-  right: 0%;
+.smile {
+  font-size: 50px;
 }
+.bluebox {
+  color: rgb(5, 5, 137);
 
+}
+.parent {
+  position: relative;
+}
 .abs1 {
   position: absolute;
-  top: 70%;
-  left: 0%;
+  z-index: 10;
+}
+
+.abs2{
+  position: absolute;
+  z-index: 0;
+}
+
+.abs3{
+  position: absolute;
+  z-index: -10;
 }
