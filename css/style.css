@@ -17,13 +17,14 @@
   padding: 30px 30px;
 }
 
-.relative1 {
-  position: relative;
-  right: 0px;
+.margin {
+  width: 35%;
+  height: 1000px;
+  margin: 0 0 0 auto;
 }
 
 .relative2 {
-  margin: 0 0 0 auto;
+  
   right: 0%;
   top: 25%;
 }
