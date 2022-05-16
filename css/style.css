@@ -17,10 +17,15 @@
   padding: 30px 30px;
 }
 
-body {
-  background-image: url(../img/firstview.jpeg);
-  background-position:25% right 25% 50%;
-  background-size: ; 
-  background-repeat: no-repeat;
 
+.img {
+  background: url(../img/firstview.jpeg) no-repeat right;
+  background-position:right;
+  top: 25%;
+  bottom: 25%;
+  left: 50%;
+}
+
+.img-size {
+  
 }
