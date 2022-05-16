@@ -17,15 +17,24 @@
   padding: 30px 30px;
 }
 
-
-.img {
-  background: url(../img/firstview.jpeg) no-repeat right;
-  background-position:right;
-  top: 25%;
-  bottom: 25%;
-  left: 50%;
+.relative1 {
+  position: relative;
+  right: 0px;
 }
 
-.img-size {
-  
+.relative2 {
+  margin: 0 0 0 auto;
+  right: 0%;
+  top: 25%;
+}
+
+.abs1 {
+  top: 70%;
+  right: 0%;
+}
+
+.abs1 {
+  position: absolute;
+  top: 70%;
+  left: 0%;
 }
