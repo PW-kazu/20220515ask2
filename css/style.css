@@ -34,17 +34,22 @@
 
 .smile {
   font-weight: lighter;
+  font-size: 80px;
+  
 }
-.bluebox {
+.bluebox-parent {
   position: relative;
   left: 0px;
   top: 200px;
+  
+}
+.bluebox{
+  position: absolute;
+  left: 0px;
+  top: 200;
   background-color: rgb(5, 5, 137);
   width: 1300px;
   height: 200px;
-}
-.parent {
-  position: relative;
 }
 .abs1 {
   position: absolute;
