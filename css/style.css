@@ -1,3 +1,4 @@
+
 .flex {
   display:flex;
   flex-direction: row;
@@ -20,8 +21,9 @@
 
 
 .margin {
+  position: relative;
+  bottom: 50px;
   width: 35%;
-  
   margin: 70px 0 0 auto;
 }
 
@@ -31,12 +33,15 @@
 }
 
 .smile {
-  font-size: 50px;
+  font-weight: lighter;
 }
 .bluebox {
+  position: relative;
+  left: 0px;
+  top: 200px;
   background-color: rgb(5, 5, 137);
-  width: 700px;
-  height: 300px;
+  width: 1300px;
+  height: 200px;
 }
 .parent {
   position: relative;
@@ -48,15 +53,8 @@
 
 .abs2{
   position: absolute;
-  top: 200px;
+  bottom: 0px;
   left: 0px;
   z-index: -1;
 }
 
-.abs3{
-  position: absolute;
-  z-index: -10;
-  left: 0px;
-  bottom: 30px;
-  top: 200px;
-}
